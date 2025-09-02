@@ -17,6 +17,46 @@ DOCTYPE html>
     <p>Tenemos servicio de Lunes a Sabado de 7am a 7pm, Domingos y festivos</p>
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ_yXQ8TpWDg77xUcnJ0PclK3ldbQtff10ww&s" alt="logo" witdh="70%">
     </div>
+    <h2 style="text-align: center;">Llena el formulario</h2>
+    <div style="display: flex; justify-content:  center;"></div>
+        <form>
+            <label>Nombre: </label>
+            <input type=" text" placeholder="En mayuscula"> <br>
+            <label> telefono</label>
+            <input readonly type="number"> <br>
+            <label>correo</label>
+            <input type="email" required> <br>
+            <label>Fecha de nacimiento</label>
+            <input type="date" min="1980-01-31"  max="2007-12-31"> <br>  
+            <label>Edad</label>
+            <input type="number" min="18"  max="50"> <br>
+            <label>sube una foto:</label>
+            <input type="file" accept=".jpg, .png  .jpeg">  <br>
+            <label>Selecciona un genero: </label>
+            <input type="radio" name="genero" value="hombre">Hombre
+            <input type="radio" name="genero" value="Mujer">Mujer
+            <input type="radio" name="genero" value="Otro">Otro
+            <br>
+            <label>Selecciona productos:</label> <br>
+            <input type="checkbox" name="producto" value="camisas">Camisas
+            <input type="checkbox" name="producto" value="accsesorios">Accesorios
+            <input type="checkbox" name="producto" value="belleza">Belleza
+            <br>
+            <label>¿como te contactamos</label>
+            <select name="contacto">
+                <option value="Celular">Celular</option>
+                <option value="correo">correo</option>
+            </select>
+            <br>
+            <label>Mensaje:</label>
+            <br>
+            <textarea name="mensaje"></textarea>
+            <br>   <br>    <br>
+            <button type="submit">enviar</button>
+            <button type="reset">borrar</button>
+        </form>
+
+    </div>
     
     
 </body>
